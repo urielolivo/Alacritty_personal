@@ -1,0 +1,10 @@
+
+autoload -U compinit promptinit
+
+compinit
+promptinit
+alias ls='lsd'
+alias v='nvim'
+# Esto establecerá el prompt por defecto al tema walters
+PROMPT='[%F{green}%n%f@%F{blue}%m%f %F{blue}%B%~%b%f]$ '
+source /usr/share/nvm/init-nvm.sh
